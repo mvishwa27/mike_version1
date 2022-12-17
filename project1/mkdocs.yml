@@ -3,9 +3,8 @@ site_url: https://example.com/
 nav:
     - Home: index.md
     - About: about.md
-    - URL: site_url.md
-theme:
-  name: material
-extra:
-  version:
-    provider: mike
+# theme:
+#   name: material
+# extra:
+#   version:
+#     provider: mike
