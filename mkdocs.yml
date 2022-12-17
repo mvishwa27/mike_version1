@@ -1,1 +1,13 @@
 site_name: My Docs
+site_url: http://127.0.0.1:5500/
+docs_dir: source
+site_dir: docs
+use_directory_urls: false
+
+theme:
+  name: material
+
+nav:
+  - Home: source/index.md
+  - File1: source/file1.md  
+  - File2: source/file2.md
