@@ -7,6 +7,21 @@ use_directory_urls: true
 theme:
   name: material
 
+extra:
+  version:
+    provider: mike
+
+plugins:
+  - mike:
+      # These fields are all optional; the defaults are as below...
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: null
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
+
 nav:
   - Home: index.md
   - File1: file1.md  
