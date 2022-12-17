@@ -1,5 +1,5 @@
 site_name: My Docs
-site_url: http://127.0.0.1:5500/
+site_url: https://mvishwa27.github.io/mike_version1/
 docs_dir: source
 site_dir: docs
 use_directory_urls: true
