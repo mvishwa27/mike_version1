@@ -3,24 +3,26 @@ site_url: http://127.0.0.1:5500/
 docs_dir: source
 site_dir: docs
 use_directory_urls: true
+site_author: V
 
 theme:
   name: material
+  custom_dir: overrides
 
 extra:
   version:
     provider: mike
 
-# plugins:
-#   - mike:
-#       # These fields are all optional; the defaults are as below...
-#       alias_type: symlink
-#       redirect_template: null
-#       deploy_prefix: ''
-#       canonical_version: null
-#       version_selector: true
-#       css_dir: css
-#       javascript_dir: js
+plugins:
+  - mike:
+      # These fields are all optional; the defaults are as below...
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: null
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
 
 nav:
   - Home: index.md
